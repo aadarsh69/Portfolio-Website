@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadarsh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(6, 6, 56);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(56, 56, 109);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(160, 160, 229);
+            font-size: 1.2rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsec {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+
+        }
+
+        .firstsec>div {
+            width: 30%;
+        }
+
+        .leftsec {
+            font-size: 3rem;
+        }
+        .leftsec .buttons{
+            padding: 65px 0;
+        }
+        .leftsec .btn{
+            padding: 16px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightsec {}
+
+        .purple {
+            color: rgb(201, 86, 201);
+        }
+
+        .experience {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(201, 86, 201);
+
+        }
+
+        .secondsec {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsec h1 {
+            font-size: 2rem;
+        }
+
+        .secondsec .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 5px;
+            display: flex;
+
+        }
+
+        .secondsec .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px;
+        }
+
+        .imagetop {
+            width: 50px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .verticaltitle {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 16px;
+
+        }
+
+        .verticaldesc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(60, 60, 102);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footerrights {
+            text-align: center;
+            color: whitesmoke;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aadarsh's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsec">
+            <div class="leftsec">
+                Hi,My name is <span class="purple">Aadarsh</span>
+                <div>and I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsec">
+                <img src="Developer logo.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsec">
+            <!-- <span class="experience">What I have done so far</span> -->
+            <h1>What I have done so far</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="imagetop" src="HTMLlogo.png" alt="">
+                    <div class="verticaltitle">
+                        HTML
+                    </div>
+                    <div class="verticaldesc">
+
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src="CSSlogo.png" alt="">
+                    <div class="verticaltitle">
+                        CSS
+                    </div>
+                    <div class="verticaldesc">
+
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src="JSlogo.png" alt="">
+                    <div class="verticaltitle">
+                        JavaScript
+                    </div>
+                    <div class="verticaldesc">
+
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src="C++logo.png" alt="">
+                    <div class="verticaltitle">
+                        C++
+                    </div>
+                    <div class="verticaldesc">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>Aadarsh's Developer Portfolio</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footerthird"></div>
+            <div class="footerfourth"></div>
+        </div>
+        <div class="footerrights">
+           Copyright &#169; aadarshportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer', 'Web Developer', 'Programmer', 'Web Designer',],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
